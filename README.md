@@ -20,7 +20,7 @@ This project was developed for the Kaggle competition aimed at building speciali
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/text-to-svg-genie.git
+git clone https://github.com/Harsh-BH/text-to-svg-genie.git
 cd text-to-svg-genie
 pip install -r requirements.txt
 ```
@@ -115,7 +115,7 @@ Our model aims to:
 
 ## 📝 License
 
-[Your chosen license]
+[MIT License](https://github.com/Harsh-BH/text-to-svg-genie/blob/e845f8b80ecfe28106e36774ed3de6fc1cac2997/LICENSE)
 
 ## 🔗 Resources
 
