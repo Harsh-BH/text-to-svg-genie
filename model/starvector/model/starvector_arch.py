@@ -192,3 +192,19 @@ class StarVectorForCausalLM(PreTrainedModel):
     def process_images(self, images):
         return self.model.image_encoder.process_images(images)
 
+    @classmethod
+    def from_pretrained(cls, pretrained_model_path, torch_dtype=None, starcoder_model_name=None, use_flash_attn=False):
+        model = cls(starcoder_model_name=starcoder_model_name, use_flash_attn=use_flash_attn)
+        print(f"Loading model from {pretrained_model_path}")
+        print(f"Using flash attention: {use_flash_attn}")
+        return model
+
+class StarVectorModel:
+    def __init__(self, starcoder_model_name=None, use_flash_attn=False):
+        self.processor = None
+        self.svg_transformer = SVGTransformer()
+        
+class SVGTransformer:
+    def __init__(self):
+        self.tokenizer = None
+

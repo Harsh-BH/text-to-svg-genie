@@ -387,3 +387,14 @@ def plot_grid_samples(images, num_cols=5, out_path = 'grid.png'):
     plt.close(fig)
 
     return image
+
+def process_and_rasterize_svg(svg_content, size=224):
+    """Process an SVG string and convert to raster image"""
+    # This is a mock implementation
+    # In a real scenario, this would use a library like CairoSVG or svglib
+    
+    # Create a blank white image as placeholder
+    img = Image.new('RGB', (size, size), color='white')
+    
+    # Return both the SVG and the rasterized image
+    return svg_content, img

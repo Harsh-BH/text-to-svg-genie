@@ -1,0 +1,54 @@
+Metadata-Version: 2.4
+Name: starvector
+Version: 1.0
+Summary: Generating Scalable Vector Graphics Code from Images and Text
+Project-URL: Homepage, https://starvector.github.io
+Project-URL: Bug Tracker, https://github.com/joanrod/starvector/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: torch==2.5.1
+Requires-Dist: torchvision==0.20.1
+Requires-Dist: transformers==4.49.0
+Requires-Dist: tokenizers==0.21.1
+Requires-Dist: sentencepiece==0.2.0
+Requires-Dist: accelerate
+Requires-Dist: pydantic==2.10
+Requires-Dist: markdown2[all]
+Requires-Dist: numpy<2.0.0
+Requires-Dist: scikit-learn==1.2.2
+Requires-Dist: gradio==3.36.1
+Requires-Dist: gradio_client==0.2.9
+Requires-Dist: requests
+Requires-Dist: httpx==0.24.0
+Requires-Dist: uvicorn
+Requires-Dist: fastapi
+Requires-Dist: svgpathtools==1.6.1
+Requires-Dist: seaborn==0.12.2
+Requires-Dist: taming-transformers
+Requires-Dist: lpips
+Requires-Dist: cairosvg
+Requires-Dist: beautifulsoup4
+Requires-Dist: webcolors
+Requires-Dist: tqdm
+Requires-Dist: omegaconf
+Requires-Dist: open-clip-torch
+Requires-Dist: noise
+Requires-Dist: datasets
+Requires-Dist: scikit-image
+Requires-Dist: fairscale
+Requires-Dist: lxml
+Requires-Dist: torch-fidelity
+Requires-Dist: clip-openai
+Requires-Dist: scipy==1.11.1
+Requires-Dist: sentence-transformers
+Requires-Dist: reportlab
+Requires-Dist: svglib
+Requires-Dist: Pillow
+Requires-Dist: protobuf
+Requires-Dist: openai
+Provides-Extra: train
+Requires-Dist: deepspeed; extra == "train"
+Requires-Dist: ninja; extra == "train"
+Requires-Dist: wandb; extra == "train"
